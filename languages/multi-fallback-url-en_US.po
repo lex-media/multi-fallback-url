@@ -1,0 +1,133 @@
+# Multi Fallback URL - English translation (en_US)
+# Copyright (C) Aron Lex
+# This file is distributed under the same license as the Multi Fallback URL package (GPL-3.0).
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Multi Fallback URL 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-13 00:00+0000\n"
+"PO-Revision-Date: 2026-10-13 01:12+0200\n"
+"Last-Translator: Aron Lex <media@lex-server.eu>\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: plugin.php
+msgid "Multi Fallback URL – Diagnose"
+msgstr "Multi Fallback URL - diagnostics"
+
+#: plugin.php
+msgid "Erkannte Domain"
+msgstr "Detected domain"
+
+#: plugin.php
+msgid "Ziel-URL"
+msgstr "Target URL"
+
+#: plugin.php
+msgid "(keine – YOURLS-Standardverhalten)"
+msgstr "(none - default YOURLS behavior)"
+
+#: plugin.php
+msgid "Gelesene Zuordnungen"
+msgstr "Entries read"
+
+#: plugin.php
+msgid "Multi Fallback URL"
+msgstr "Multi Fallback URL"
+
+#: plugin.php
+msgid "optional"
+msgstr "optional"
+
+#: plugin.php
+msgid "Zeile entfernen"
+msgstr "Remove row"
+
+#: plugin.php
+msgid "Entfernen"
+msgstr "Remove"
+
+#: plugin.php
+msgid "Einstellungen gespeichert."
+msgstr "Settings saved."
+
+#: plugin.php
+msgid "Hinweise:"
+msgstr "Notes:"
+
+#: plugin.php
+msgid "Legt je nach aufgerufener Domain fest, wohin Besucher weitergeleitet werden, wenn ein Short-Link nicht existiert."
+msgstr "Defines where visitors are redirected, depending on the domain they used, when a short link does not exist."
+
+#: plugin.php
+#, php-format
+msgid "Diese Admin-Seite wurde über die Domain %s aufgerufen."
+msgstr "This admin page was opened via the domain %s."
+
+#: plugin.php
+msgid "Domains und Weiterleitungen"
+msgstr "Domains and redirects"
+
+#: plugin.php
+msgid "Trage je Zeile eine Domain und die Seite ein, auf die Besucher bei einem unbekannten Short-Link weitergeleitet werden. Subdomains erben automatisch den Eintrag ihrer Hauptdomain, sofern sie keinen eigenen haben. „www.“ und das Schema (https://) im Domain-Feld werden ignoriert. Leere Zeilen werden beim Speichern entfernt."
+msgstr "Per row, enter a domain and the page visitors are sent to when a short link is unknown. Subdomains automatically inherit the entry of their main domain unless they have their own. \"www.\" and the scheme (https://) in the domain field are ignored. Empty rows are removed when saving."
+
+#: plugin.php
+msgid "Domain"
+msgstr "Domain"
+
+#: plugin.php
+msgid "Weiterleitung (Ziel-URL)"
+msgstr "Redirect (target URL)"
+
+#: plugin.php
+msgid "Notiz"
+msgstr "Note"
+
+#: plugin.php
+msgid "+ Zeile hinzufügen"
+msgstr "+ Add row"
+
+#: plugin.php
+msgid "Standard-Fallback"
+msgstr "Default fallback"
+
+#: plugin.php
+msgid "Wird verwendet, wenn die Domain nicht in der Liste steht. Leer lassen = YOURLS-Standardverhalten."
+msgstr "Used when the domain is not in the list. Leave empty to keep the default YOURLS behavior."
+
+#: plugin.php
+msgid "Diagnosemodus"
+msgstr "Diagnostic mode"
+
+#: plugin.php
+msgid "Statt weiterzuleiten die erkannte Domain und das Ziel als Text anzeigen (nach dem Test wieder ausschalten!)"
+msgstr "Show the detected domain and target as text instead of redirecting (turn off again after testing!)"
+
+#: plugin.php
+msgid "Speichern"
+msgstr "Save"
+
+#: plugin.php
+msgid "entwickelt von Lex-Media"
+msgstr "developed by Lex-Media"
+
+#: plugin.php
+msgid "mithilfe von KI"
+msgstr "with the help of AI"
+
+#: plugin.php
+#, php-format
+msgid "Zeile %1$d nicht gespeichert: Domain oder gültige Ziel-URL fehlt (\"%2$s\" / \"%3$s\")."
+msgstr "Row %1$d was not saved: the domain or a valid target URL is missing (\"%2$s\" / \"%3$s\")."
+
+#: plugin.php
+#, php-format
+msgid "Die Domain \"%s\" kommt mehrfach vor. Es gilt nur die erste Zeile."
+msgstr "The domain \"%s\" appears more than once. Only the first row is used."

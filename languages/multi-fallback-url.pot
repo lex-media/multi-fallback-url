@@ -1,0 +1,145 @@
+# Multi Fallback URL - Übersetzungsvorlage (Originaltexte: Deutsch)
+# Copyright (C) Aron Lex
+# This file is distributed under the same license as the Multi Fallback URL package (GPL-3.0).
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Multi Fallback URL 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-13 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: plugin.php
+msgid "Multi Fallback URL – Diagnose"
+msgstr ""
+
+#: plugin.php
+msgid "Erkannte Domain"
+msgstr ""
+
+#: plugin.php
+msgid "Ziel-URL"
+msgstr ""
+
+#: plugin.php
+msgid "(keine – YOURLS-Standardverhalten)"
+msgstr ""
+
+#: plugin.php
+msgid "Gelesene Zuordnungen"
+msgstr ""
+
+#: plugin.php
+msgid "Multi Fallback URL"
+msgstr ""
+
+#: plugin.php
+msgid "optional"
+msgstr ""
+
+#: plugin.php
+msgid "Zeile entfernen"
+msgstr ""
+
+#: plugin.php
+msgid "Entfernen"
+msgstr ""
+
+#: plugin.php
+msgid "Einstellungen gespeichert."
+msgstr ""
+
+#: plugin.php
+msgid "Hinweise:"
+msgstr ""
+
+#: plugin.php
+msgid ""
+"Legt je nach aufgerufener Domain fest, wohin Besucher weitergeleitet werden, "
+"wenn ein Short-Link nicht existiert."
+msgstr ""
+
+#: plugin.php
+#, php-format
+msgid "Diese Admin-Seite wurde über die Domain %s aufgerufen."
+msgstr ""
+
+#: plugin.php
+msgid "Domains und Weiterleitungen"
+msgstr ""
+
+#: plugin.php
+msgid ""
+"Trage je Zeile eine Domain und die Seite ein, auf die Besucher bei einem "
+"unbekannten Short-Link weitergeleitet werden. Subdomains erben automatisch "
+"den Eintrag ihrer Hauptdomain, sofern sie keinen eigenen haben. „www.“ und "
+"das Schema (https://) im Domain-Feld werden ignoriert. Leere Zeilen werden "
+"beim Speichern entfernt."
+msgstr ""
+
+#: plugin.php
+msgid "Domain"
+msgstr ""
+
+#: plugin.php
+msgid "Weiterleitung (Ziel-URL)"
+msgstr ""
+
+#: plugin.php
+msgid "Notiz"
+msgstr ""
+
+#: plugin.php
+msgid "+ Zeile hinzufügen"
+msgstr ""
+
+#: plugin.php
+msgid "Standard-Fallback"
+msgstr ""
+
+#: plugin.php
+msgid ""
+"Wird verwendet, wenn die Domain nicht in der Liste steht. Leer lassen = "
+"YOURLS-Standardverhalten."
+msgstr ""
+
+#: plugin.php
+msgid "Diagnosemodus"
+msgstr ""
+
+#: plugin.php
+msgid ""
+"Statt weiterzuleiten die erkannte Domain und das Ziel als Text anzeigen "
+"(nach dem Test wieder ausschalten!)"
+msgstr ""
+
+#: plugin.php
+msgid "Speichern"
+msgstr ""
+
+#: plugin.php
+msgid "entwickelt von Lex-Media"
+msgstr ""
+
+#: plugin.php
+msgid "mithilfe von KI"
+msgstr ""
+
+#: plugin.php
+#, php-format
+msgid ""
+"Zeile %1$d nicht gespeichert: Domain oder gültige Ziel-URL fehlt (\"%2$s\" / "
+"\"%3$s\")."
+msgstr ""
+
+#: plugin.php
+#, php-format
+msgid "Die Domain \"%s\" kommt mehrfach vor. Es gilt nur die erste Zeile."
+msgstr ""
